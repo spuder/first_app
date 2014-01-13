@@ -39,6 +39,9 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
+#http://stackoverflow.com/questions/18556955/heroku-config-secret-key-base-error
+gem 'foreman'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
